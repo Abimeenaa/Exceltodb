@@ -2,7 +2,6 @@
 include 'dbconfig.php';
 require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
-//use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
 if (isset($_POST['save_excel_data'])) {
     $filename = $_FILES['import_file']['name']; 
